@@ -1,3 +1,5 @@
+<img src="https://avatars.githubusercontent.com/u/85954780?s=200&v=4" />
+
 # md001 juniper
 Juniper Eurorack Module.
 
