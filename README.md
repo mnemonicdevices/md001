@@ -1,7 +1,7 @@
 <img src="https://avatars.githubusercontent.com/u/85954780?s=200&v=4" />
 
 # md001 juniper
-Juniper Eurorack Module: firmware releases, issue tracking and documentation repository
+Juniper Eurorack Module: firmware releases, issue tracking and documentation repository.
 
 ## firmware update instructions
 Firmware may be updated by downloading one of the release binaries found in this repository. Firmware is upgraded by copying a release binary to the `FAT32` formatted microsd card of the device and naming the file `fw.bin`. On powerup hold the `PHASE/CH7` button, the bootloader of the device will then begin the flash procedure. Release the `PHASE/CH7` button and wait until the device finishes flashing the firmware. Once it completes it will reboot the device.
