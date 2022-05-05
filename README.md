@@ -13,6 +13,23 @@ The microsd card must be formatted with `FAT32` and use `Master Boot Record (MBR
 In some rare cases the firmware may be required to wipe the user calibration data. In this scenario upon rebooting the device will boot into the calibration screen. To calibrate the device, a multimeter with reasonable accuracy will be required (such as a Fluke 101).
 To manually begin the calibration process on powerup hold the `OFFSET/CH8` button.
 
+## bootloader update instructions
+In exceptional circumstances the bootloader may be updated this will require manual flashing of the device. The following is a short guide to achieve this.
+
+The following is required:
+
+- An `stlink v2` device
+- The `stlink` utilities [found here](https://github.com/stlink-org/stlink). Ensure that the `st-flash` utility is correctly added to the PATH.
+- A valid bootloader binary from this repository
+- Connecting the `stlink v2` device to `md001` via the `jtag/swd` [port of the device](https://github.com/mnemonicdevices/md001/blob/main/md001-jtag-connections.png)
+- Finally the device can be flashed with the updated bootloader with:
+
+```
+st-flash write <md001-bootloader-file>.bin 0x08000000
+```
+
+
+
 ## release information
 Currently the firmware is in closed early beta with various known bugs and some features not fully implemented.
 
