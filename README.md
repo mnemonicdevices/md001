@@ -13,8 +13,8 @@ The microsd card must be formatted with `FAT32` and use `Master Boot Record (MBR
 In some rare cases the firmware may be required to wipe the user calibration data. In this scenario upon rebooting the device will boot into the calibration screen. To calibrate the device, a multimeter with reasonable accuracy will be required (such as a Fluke 101).
 To manually begin the calibration process on powerup hold the `OFFSET/CH8` button.
 
-## bootloader update instructions
-In exceptional circumstances the bootloader may be updated this will require manual flashing of the device. The following is a short guide to achieve this.
+## bootloader flash instructions
+In exceptional circumstances the bootloader may be updated, this will require manual flashing of the device.
 
 __*Warning: Incorrect flashing can cause data loss or damage of the device!*__
 
