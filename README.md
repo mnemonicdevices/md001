@@ -16,6 +16,8 @@ To manually begin the calibration process on powerup hold the `OFFSET/CH8` butto
 ## bootloader update instructions
 In exceptional circumstances the bootloader may be updated this will require manual flashing of the device. The following is a short guide to achieve this.
 
+__*Warning: Incorrect flashing can cause data loss or damage of the device!*__
+
 The following is required:
 
 - An `stlink v2` device
@@ -27,8 +29,6 @@ The following is required:
 ```
 st-flash write <md001-bootloader-file>.bin 0x08000000
 ```
-
-
 
 ## release information
 Currently the firmware is in closed early beta with various known bugs and some features not fully implemented.
