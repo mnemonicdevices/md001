@@ -1,7 +1,7 @@
 <img src="https://avatars.githubusercontent.com/u/85954780?s=200&v=4" />
 
 # md001 juniper
-Juniper Eurorack Module: firmware releases, issue tracking and documentation repository.
+[Juniper Eurorack Module](https://www.mnemonicdevices.io/juniper): firmware releases, issue tracking and documentation repository.
 
 ```
 firmware: 0.0.8
