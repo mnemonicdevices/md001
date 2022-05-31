@@ -4,7 +4,7 @@
 Juniper Eurorack Module: firmware releases, issue tracking and documentation repository.
 
 ```
-firmware: 0.0.7
+firmware: 0.0.8
 bootloader: 0.0.2
 ```
 
