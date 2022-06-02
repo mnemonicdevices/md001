@@ -4,7 +4,7 @@
 [Juniper Eurorack Module](https://www.mnemonicdevices.io/juniper): firmware releases, issue tracking and documentation repository.
 
 ```
-firmware: 0.0.8
+firmware: 0.0.9
 bootloader: 0.0.2
 ```
 
