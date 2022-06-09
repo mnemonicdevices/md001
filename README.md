@@ -40,3 +40,7 @@ Currently the firmware is in closed early beta with various known bugs and some 
 
 ## bug reporting
 For any issues you find with the device or firmware, please create a new issue within this repository. Please ensure to list the device `revision` and `firmware`.
+
+# Media
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rrn-ymsTKjk/0.jpg)](https://www.youtube.com/watch?v=rrn-ymsTKjk)
