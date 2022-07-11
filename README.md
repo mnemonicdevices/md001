@@ -14,6 +14,9 @@ Firmware may be updated by downloading one of the release binaries found in this
 ## sdcard requirements
 The microsd card must be formatted with `FAT32` and use `Master Boot Record (MBR)`. Not much space is required but 4GB sdcards seem to be the cheapest available.
 
+## prototype backward compatiability
+All prototype revision devices prior to or equal to REV4 require a file to exist on the SDCard named `proto`. This is an indicator that changes driver support between the newer REV5+ boards.
+
 ## calibration instructions
 In some rare cases the firmware may be required to wipe the user calibration data. In this scenario upon rebooting the device will boot into the calibration screen. To calibrate the device, a multimeter with reasonable accuracy will be required (such as a Fluke 101).
 To manually begin the calibration process on powerup hold the `OFFSET/CH8` button.
