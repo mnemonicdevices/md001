@@ -4,8 +4,8 @@
 
 <img src="https://docs.mnemonicdevices.io/images/md001-banner.jpeg" width="600px" />
 
-- [Latest version: `0.4.6`](https://docs.mnemonicdevices.io/md001/changelog.html)
-- Date of release: `23/01/24`
+- [Latest version: `0.5.0`](https://docs.mnemonicdevices.io/md001/changelog.html)
+- Date of release: `29/02/24`
 - [Changelog](https://docs.mnemonicdevices.io/md001/changelog.html)
 - <a href="https://github.com/mnemonicdevices/md001/issues">Issue tracking</a>
 
