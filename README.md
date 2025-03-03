@@ -1,6 +1,6 @@
 # MD-001 Juniper
 
-`MD-001 Juniper` and `MD-002 Gin` issue tracking repository
+`MD-001 Juniper`, `MD-002 Gin` and `MD-004 Tonic` issue tracking repository
 
 <img src="https://docs.mnemonicdevices.io/images/md001-banner.jpeg" width="600px" />
 
